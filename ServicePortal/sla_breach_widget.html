@@ -1,0 +1,38 @@
+<div class="sla-widget">
+
+    <h2>Virtual Agent SLA Breach Awareness</h2>
+
+    <table>
+
+        <tr>
+            <th>Incident</th>
+            <td>{{data.slaInfo.incident}}</td>
+        </tr>
+
+        <tr>
+            <th>Assignment Group</th>
+            <td>{{data.slaInfo.assignment_group}}</td>
+        </tr>
+
+        <tr>
+            <th>SLA Status</th>
+            <td>{{data.slaInfo.sla_status}}</td>
+        </tr>
+
+        <tr>
+            <th>Breach Risk</th>
+            <td>{{data.slaInfo.breach_risk}}</td>
+        </tr>
+
+        <tr>
+            <th>Remaining Time</th>
+            <td>{{data.slaInfo.remaining_time}}</td>
+        </tr>
+
+    </table>
+
+    <button ng-click="submitJustification()">
+        Submit Justification
+    </button>
+
+</div>
