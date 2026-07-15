@@ -2,35 +2,19 @@
 
 ## Overview
 
-The **Virtual Agent-Driven SLA Breach Awareness & Justification System** is a ServiceNow-based governance solution designed to proactively monitor Service Level Agreements (SLAs), detect potential SLA breaches, notify responsible users, and enforce mandatory breach acknowledgements and justifications.
+The Virtual Agent-Driven SLA Breach Awareness & Justification System is a ServiceNow-based solution that proactively monitors Service Level Agreements (SLAs), alerts users about potential SLA breaches, and assists in providing business justifications through a Virtual Agent.
 
-The project leverages ServiceNow's low-code capabilities, including Virtual Agent, Flow Designer, UI Policies, Notifications, Reports, and Dashboards, to improve SLA compliance, accountability, and operational transparency.
+The project demonstrates the implementation of ServiceNow automation using Virtual Agent, Flow Designer, Business Rules, Notifications, UI Policies, and Service Portal components.
 
 ---
 
 ## Objectives
 
-- Proactively monitor SLA progress.
-- Detect SLA risks before breaches occur.
-- Automate SLA warning notifications.
-- Enforce SLA breach acknowledgement and justification.
-- Guide users through Virtual Agent conversations.
-- Provide real-time SLA dashboards and reports.
-
----
-
-## Key Features
-
-- SLA Monitoring
-- Automated Notifications
-- Flow Designer Automation
-- UI Policy Enforcement
-- Virtual Agent Integration
-- SLA Breach Justification
-- SLA Acknowledgement
-- Reports & Dashboards
-- Role-Based Access Control
-- Testing & Validation
+- Monitor SLA status in real time.
+- Notify users before SLA breaches occur.
+- Allow users to submit SLA breach justifications.
+- Improve SLA compliance and operational efficiency.
+- Demonstrate ServiceNow workflow automation.
 
 ---
 
@@ -39,26 +23,25 @@ The project leverages ServiceNow's low-code capabilities, including Virtual Agen
 - ServiceNow
 - Virtual Agent
 - Flow Designer
+- Business Rules
 - UI Policies
 - Notifications
-- Reports
-- Dashboards
-- Incident Management
+- Service Portal
+- JavaScript
+- HTML
+- CSS
 
 ---
 
-## Project Workflow
+## Features
 
-1. Incident Creation
-2. SLA Attachment
-3. SLA Progress Monitoring
-4. SLA Risk Detection
-5. Automated Notifications
-6. Virtual Agent Interaction
-7. User Acknowledgement
-8. SLA Breach Justification
-9. Reporting
-10. Dashboard Monitoring
+- SLA Monitoring Dashboard
+- Virtual Agent Assistance
+- Automated Notifications
+- SLA Breach Justification
+- Service Portal Widget
+- Workflow Automation
+- User-friendly Interface
 
 ---
 
@@ -73,32 +56,24 @@ Virtual-Agent-Driven-SLA-Breach-Awareness-System
 ├── ServicePortal
 │   ├── client_controller.js
 │   ├── server_script.js
-│   ├── sla_breach_widget.html
-│   └── sla_breach_widget.css
+│   ├── sla_breach_widget.css
+│   └── sla_breach_widget.html
 │
 └── README.md
 ```
 
 ---
 
-## Future Enhancements
+## Project Outcome
 
-- AI-based SLA prediction
-- Predictive analytics
-- Mobile notifications
-- Performance Analytics integration
-- Intelligent SLA recommendations
+This project demonstrates how ServiceNow Virtual Agent and automation features can be integrated to improve SLA governance, reduce manual intervention, and enhance user experience through proactive communication and workflow automation.
 
 ---
 
-## Team Members
+## Author
 
+**Pallem Deva Sathwik**
 
-- Pallem Deva Sathwik
-- Uday Kumar Patro
-- Deepak Naidu
----
+ServiceNow System Administrator Program
 
-## Project Status
-
-Completed as part of the **SmartBridge ServiceNow System Administrator Program**.
+2026
